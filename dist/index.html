@@ -1,0 +1,16 @@
+<html>
+
+<head>
+    <title>Hello, vue</title>
+</head>
+
+<body>
+    <div id="test-posts">
+        <div>
+            <test-post v-for="post in posts" v-bind:key="post.id" v-bind:post="post" v-on:changed-title="log(post.title)"></test-post>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

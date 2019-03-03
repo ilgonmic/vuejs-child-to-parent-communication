@@ -1,0 +1,20 @@
+{
+  "name": "vue-test",
+  "version": "1.0.0",
+  "description": "Test project for vue.js",
+  "main": "index.js",
+  "author": "Ilya Goncharov",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "vue": "2.6.8"
+  },
+  "devDependencies": {
+    "webpack": "4.29.6",
+    "webpack-cli": "3.2.3",
+    "vue-loader": "15.7.0",
+    "vue-template-compiler": "2.6.8"
+  }
+}
